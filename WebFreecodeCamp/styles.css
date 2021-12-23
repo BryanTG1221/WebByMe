@@ -1,0 +1,72 @@
+body {
+    margin: auto;
+}
+
+.banner {
+    text-align: center;
+}
+
+#tittle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+figcaption {
+    font-size: 20px;
+    padding: 10px;
+}
+
+legend {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 8px;
+}
+
+#img-div {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 6px;
+    padding: 15px;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+#tribute-info h3{
+    display: flexbox ;
+    text-align: center;
+    font-size: 35px;
+}
+
+ul {
+    font-size: 25px;
+}
+#tribute-info  {
+    display: grid;
+    justify-content: center;
+}
+
+li  {
+    padding: 18px;
+}
+section {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+footer {
+    height: 150px;
+    background-color: #F60000;
+    display: block;
+}
+
+ a {
+    color: white;
+    display: inline-block;
+    margin-top: 55px;
+    margin-left: 25px;
+    font-size: 20px;
+    text-decoration: none;
+}
