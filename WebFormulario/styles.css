@@ -1,0 +1,106 @@
+body {
+    background-image: url(https://th.bing.com/th/id/R.5807cb0b5633bd3eeb974d11813a5b30?rik=lmUb1UyDzjhNhQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f0%2f9%2fa%2f243332.jpg&ehk=eUKtuXjy5hYvjA30bVBlZCBjwTmzew72EDRmP1zd1jE%3d&risl=&pid=ImgRaw&r=0);
+    background-color: black;
+    width: auto;
+}
+
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.cabecera {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+#survey-form {
+    color: white;
+    background-color: rgb(19, 19, 19);
+    width: 800px;
+    height: 75rem;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;    
+}
+
+label {
+    display: block;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+#name {
+    display: block;
+    width: 45rem;
+    height: 3rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#email {
+    display: block;
+    width: 45rem;
+    height: 3rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#number {
+    display: block;
+    width: 45rem;
+    height: 3rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+#dropdown {
+    display: block;
+    width: 45.4rem;
+    height: 3rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 1.2rem;
+}
+
+#section-rdb {
+    margin-bottom: 3rem;
+}
+#rdbmas {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+section p {
+    padding: 0;
+    font-size: 30px;
+}
+
+.textbox {
+    font-size: 1.5rem;
+    margin-left: 1.2rem;
+}
+
+.textbox textarea {
+    height: 6rem;
+    width: 45rem;
+}
+
+button {
+    background-color: rgb(1, 114, 1);
+    color: white;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 1.2rem;
+    width: 45.5rem;
+    height: 3rem;
+}
