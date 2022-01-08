@@ -1,0 +1,96 @@
+*{
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+nav header {
+    text-align: center;
+}
+
+#Conectores ul {
+    overflow-y: auto;
+    overflow-x: hidden;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#Conectores li {
+    margin: 0;
+    border-top: 1px solid;
+    position: relative;
+    width: 100%;
+}
+
+#Conectores a {
+    display: flex;
+    align-items: flex-start;
+    margin: 0.5rem;
+    margin-left: 0.75rem;
+}
+
+#nav-bar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+@media screen and (max-width: 600px){
+    #nav-bar {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    #main-doc{
+        margin-left: 0;
+    }
+}
+
+
+.nav-link {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.Titulos {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Parrafos {
+    font-size: 18px;
+    color: rgb(83, 83, 83);
+    margin-left: 2rem;
+}
+
+ul {
+    margin-left: 2rem;
+    color: rgb(83, 83, 83);
+}
+
+code {
+    display: block;
+    padding: 1rem;
+    margin-left: 2rem;
+    background-color: rgba(240, 240, 240, 0.658);
+    line-height: 2;
+    font-weight: lighter;
+}
