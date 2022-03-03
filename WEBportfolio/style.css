@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+
+li{
+    margin-right: 1rem;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#nav-bar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    justify-content: flex-end;
+    background-color: rgb(44, 44, 44);
+}
+
+h1 {
+    font-size: 45px;
+}
+#welcome-section {
+    background-color: white;
+    width: 100%;
+    height: 20rem;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+#welcome-section p {
+    font-size: 20px;
+}
+
+#projects {
+    color: white;
+    background-color: rgb(44, 44, 44);
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.project-tile{
+    width: 20rem;
+    height: 17.1rem;
+    border: solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.project-tile img{
+    display: flex;
+    justify-content: start;
+    width: 20rem;
+    
+}
+
+.project-tile p {
+    background-color: red;
+    width: 91%;
+    padding: 1rem;
+}
+
+#projects header {
+    font-size: 3rem;   
+    margin-bottom: 4rem;
+}
+
+#contacto {
+    width: 100%;
+    height: 20rem;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+#contacto h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    margin-bottom: 5rem;
+}
+
+#contacto img {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contacto a {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: right;
+    color: white;
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(44, 44, 44) ;
+}
+
+footer p {
+    margin-right: 2rem;
+    padding-top: 4rem;
+}
