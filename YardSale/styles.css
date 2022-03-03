@@ -1,0 +1,12 @@
+:root {
+    --VeryLightPink:#C7C7C7;
+    --TextInputField:#F7F7F7;
+    --HospitalGreen: #ACD9B2;
+    --White: #FFFFFF;
+    --Black: #000000;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
