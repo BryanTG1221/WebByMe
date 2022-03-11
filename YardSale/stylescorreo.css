@@ -1,0 +1,103 @@
+:root {
+
+    --VeryLightPink:#C7C7C7;
+    --TextInputField:#F7F7F7;
+    --HospitalGreen: #ACD9B2;
+    --White: #FFFFFF;
+    --Black: #000000;
+    --sm:14px;
+    --md:16px;
+    --lg:18px;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#email {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+#container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+    place-items: center;
+}
+
+.logo {
+    width: 150px;
+    justify-self: center;
+    margin-bottom: 60px;
+    display: none;
+}
+
+.tittle {
+    font-size: var(--lg);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#subtittle {
+    font-size: var(--md);
+    color: var(--VeryLightPink);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.imgEmail {
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: var(--TextInputField);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgEmail img {
+    width: 80px;
+}
+
+.button {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: var(--HospitalGreen);
+    border: 0;
+    color: white;
+    font-size: var(--lg);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.resend {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: var(--sm);
+    color: var(--VeryLightPink);
+}
+
+.resend span {
+    margin-right: 5px;
+}
+
+.resend a {
+    text-decoration: none;
+    color: var(--HospitalGreen);
+}
+
+@media (max-width:640px) {
+    .logo {
+        display: block;
+    }
+}
